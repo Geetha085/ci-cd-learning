@@ -12,5 +12,6 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Run a simple command
-        run: echo "CI is working!"
+      - name: Force a failure
+        run: exit 1
+
