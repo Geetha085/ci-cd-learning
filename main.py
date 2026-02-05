@@ -5,7 +5,8 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "My CI/CD is Fully Working!"
+    return "Testing CI CD full flow"
+
 @app.route("/about")
 def about():
     return "This is my CI/CD learning project"
