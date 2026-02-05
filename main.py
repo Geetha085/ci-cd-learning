@@ -6,6 +6,10 @@ app = Flask(__name__)
 @app.route("/")
 def home():
     return "My CI/CD is Fully Working!"
+@app.route("/about")
+def about():
+    return "This is my CI/CD learning project"
+
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
