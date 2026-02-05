@@ -9,7 +9,7 @@ def home():
 
 @app.route("/about")
 def about():
-    return "This is my learning project"
+    return "This is my CI/CD learning project"
 
 
 if __name__ == "__main__":
